@@ -1,0 +1,42 @@
+[
+    {
+        "id_pedido": 1,
+        "id_cliente": 1,
+        "fecha_creacion": "2026-10-18",
+        "fecha_servicio": "2026-10-18",
+        "productos": [
+            {
+                "id_producto": 101,
+                "cantidad": 1,
+                "precio": 799.9
+            },
+            {
+                "id_producto": 102,
+                "cantidad": 2,
+                "precio": 24.99
+            }
+        ],
+        "estado": "servido",
+        "observaciones": "Entrega por la mañana"
+    },
+    {
+        "id_pedido": 4,
+        "id_cliente": 2,
+        "fecha_creacion": "2026-10-18",
+        "fecha_servicio": null,
+        "productos": [
+            {
+                "id_producto": 103,
+                "cantidad": 3,
+                "precio": 229.0
+            },
+            {
+                "id_producto": 102,
+                "cantidad": 5,
+                "precio": 24.99
+            }
+        ],
+        "estado": "en curso",
+        "observaciones": "Pedido consolidado de: 2,3"
+    }
+]
